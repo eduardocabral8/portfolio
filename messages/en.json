@@ -1,6 +1,6 @@
 {
   "doc": {
-    "subject": "Eduardo Emanuel Cabral",
+    "subject": "Emanuel Cabral",
     "classification": "Full Stack Developer",
     "location": "Buenos Aires · AR",
     "index": "Navigation",
@@ -30,7 +30,7 @@
     "cta_primary": "Review projects",
     "cta_secondary": "Request a call",
     "runner": {
-      "cmd": "$ verify profile eduardo",
+      "cmd": "$ verify profile emanuel",
       "running": "running 3 suites…",
       "suites": [
         { "file": "forit/production.spec.ts", "case": "ships to production — live wholesale platform" },
@@ -160,7 +160,7 @@
     "open": "Open"
   },
   "footer": {
-    "signoff": "Eduardo Emanuel Cabral",
+    "signoff": "Emanuel Cabral",
     "builtwith": "Built with Next.js, TypeScript and Tailwind CSS."
   },
   "not_found": {
@@ -175,7 +175,7 @@
     "welcome": "Interactive terminal. Type 'help' for available commands.\n",
     "prompt": "eec@portfolio:~$",
     "help_output": "Available commands:\n  whoami      Display biography & current status\n  skills      List technical skills\n  experience  Show work history\n  contact     Show contact options\n  locale      Change language (e.g. 'locale es' or 'locale en')\n  clear       Clear screen\n  help        Show this help menu",
-    "whoami_output": "Eduardo Emanuel Cabral — Full Stack Developer\nBuenos Aires, Argentina\n\nExperienced developer focused on designing and scaling React, Node.js, and TypeScript applications. Currently seeking remote or on-site opportunities in Buenos Aires.",
+    "whoami_output": "Emanuel Cabral — Full Stack Developer\nBuenos Aires, Argentina\n\nExperienced developer focused on designing and scaling React, Node.js, and TypeScript applications. Currently seeking remote or on-site opportunities in Buenos Aires.",
     "skills_output": "Technical Stack:\n  - Frontend: React (18/19), Next.js, Vite, Astro, Tailwind CSS, Material UI\n  - Backend: Node.js, Express, Fastify, NestJS, Socket.io, REST APIs\n  - Database: MySQL, PostgreSQL, SQLite, Prisma ORM\n  - Tools: Git, Docker, Nginx, pnpm/Yarn workspaces, GitHub Actions, Vitest",
     "experience_output": "Work Experience:\n  - ForIT Software Factory (Full Stack Developer, 2026 - Present)\n    Wholesale platform in production. Refactored queries, built stock sync engine, migrated 2,000+ products, TDD integration.",
     "contact_output": "Contact Channels:\n  - Email: eduardoemanuelcf@gmail.com\n  - LinkedIn: linkedin.com/in/eduardoemanuelcf\n  - GitHub: github.com/eduardoemanuelcf",

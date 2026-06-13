@@ -1,6 +1,6 @@
 {
   "doc": {
-    "subject": "Eduardo Emanuel Cabral",
+    "subject": "Emanuel Cabral",
     "classification": "Full Stack Developer",
     "location": "Buenos Aires · AR",
     "index": "Navegación",
@@ -30,7 +30,7 @@
     "cta_primary": "Revisar proyectos",
     "cta_secondary": "Coordinar una llamada",
     "runner": {
-      "cmd": "$ verificar perfil eduardo",
+      "cmd": "$ verificar perfil emanuel",
       "running": "corriendo 3 suites…",
       "suites": [
         { "file": "forit/produccion.spec.ts", "case": "despliega a producción — plataforma mayorista en vivo" },
@@ -160,7 +160,7 @@
     "open": "Abrir"
   },
   "footer": {
-    "signoff": "Eduardo Emanuel Cabral",
+    "signoff": "Emanuel Cabral",
     "builtwith": "Construido con Next.js, TypeScript y Tailwind CSS."
   },
   "not_found": {
@@ -175,7 +175,7 @@
     "welcome": "Terminal interactiva. Escribe 'help' para ver los comandos.\n",
     "prompt": "eec@portfolio:~$",
     "help_output": "Comandos disponibles:\n  whoami      Muestra biografía y estado actual\n  skills      Lista habilidades técnicas\n  experience  Muestra historial de trabajo\n  contact     Muestra opciones de contacto\n  locale      Cambia el idioma (ej: 'locale es' o 'locale en')\n  clear       Limpia la pantalla\n  help        Muestra este menú de ayuda",
-    "whoami_output": "Eduardo Emanuel Cabral — Desarrollador Full Stack\nBuenos Aires, Argentina\n\nDesarrollador con experiencia enfocado en diseñar y escalar aplicaciones con React, Node.js y TypeScript. Actualmente en búsqueda de oportunidades remotas o presenciales en Buenos Aires.",
+    "whoami_output": "Emanuel Cabral — Desarrollador Full Stack\nBuenos Aires, Argentina\n\nDesarrollador con experiencia enfocado en diseñar y escalar aplicaciones con React, Node.js y TypeScript. Actualmente en búsqueda de oportunidades remotas o presenciales en Buenos Aires.",
     "skills_output": "Stack Técnico:\n  - Frontend: React (18/19), Next.js, Vite, Astro, Tailwind CSS, Material UI\n  - Backend: Node.js, Express, Fastify, NestJS, Socket.io, APIs REST\n  - Base de Datos: MySQL, PostgreSQL, SQLite, Prisma ORM\n  - Herramientas: Git, Docker, Nginx, pnpm/Yarn workspaces, GitHub Actions, Vitest",
     "experience_output": "Experiencia Laboral:\n  - ForIT Software Factory (Desarrollador Full Stack, 2026 - Presente)\n    Plataforma mayorista en producción. Refactorización de consultas, motor de sincronización de stock, migración de +2.000 productos, integración TDD.",
     "contact_output": "Canales de Contacto:\n  - Email: eduardoemanuelcf@gmail.com\n  - LinkedIn: linkedin.com/in/eduardoemanuelcf\n  - GitHub: github.com/eduardoemanuelcf",

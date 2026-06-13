@@ -43,7 +43,7 @@ describe("useTerminal", () => {
       type: "input",
       text: "eec@portfolio:~$ whoami",
     });
-    expect(lastOutput(result.current.lines)).toContain("Eduardo Emanuel Cabral");
+    expect(lastOutput(result.current.lines)).toContain("Emanuel Cabral");
   });
 
   it("lists available commands for help", () => {

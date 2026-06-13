@@ -5,10 +5,10 @@
 brand
 
 ## Users
-Reclutadores técnicos y mánagers de contratación que buscan validar las habilidades técnicas de Eduardo en frontend, arquitectura de software limpia y desarrollo robusto en producción. Visitan el sitio con poco tiempo disponible, por lo que necesitan una experiencia memorable pero rápida de navegar.
+Reclutadores técnicos y mánagers de contratación que buscan validar las habilidades técnicas de Emanuel en frontend, arquitectura de software limpia y desarrollo robusto en producción. Visitan el sitio con poco tiempo disponible, por lo que necesitan una experiencia memorable pero rápida de navegar.
 
 ## Product Purpose
-Servir como portafolio interactivo premium que emula una interfaz de escritorio (estilo Windows 11 Fluent UI). Debe demostrar un altísimo nivel de atención al detalle, pulcritud técnica, soporte de internacionalización, rendimiento fluido y accesibilidad, demostrando la capacidad de Eduardo para construir aplicaciones web de calidad de producción.
+Servir como portafolio interactivo premium que emula una interfaz de escritorio (estilo Windows 11 Fluent UI). Debe demostrar un altísimo nivel de atención al detalle, pulcritud técnica, soporte de internacionalización, rendimiento fluido y accesibilidad, demostrando la capacidad de Emanuel para construir aplicaciones web de calidad de producción.
 
 ## Brand Personality
 - Técnico
