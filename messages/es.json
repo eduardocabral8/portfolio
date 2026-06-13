@@ -154,7 +154,7 @@
     "form_message": "Mensaje",
     "form_submit": "Enviar mensaje",
     "form_sending": "Enviando…",
-    "form_success": "¡Mensaje enviado! Te respondo a la brevedad.",
+    "form_success": "¡Mensaje enviado!\nTe respondo a la brevedad.",
     "form_error": "No se pudo enviar el mensaje. Intentá de nuevo.",
     "form_headline": "Enviar un mensaje",
     "open": "Abrir"

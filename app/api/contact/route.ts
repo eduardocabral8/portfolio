@@ -1,6 +1,14 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
 const ipCache = new Map<string, number[]>();
 const RATE_LIMIT_WINDOW_MS = 60 * 1000;
 const MAX_REQUESTS_PER_WINDOW = 3;
@@ -83,12 +91,21 @@ export async function POST(req: Request) {
 
     const resend = new Resend(apiKey);
     const fromEmail = process.env.CONTACT_FROM_EMAIL || "Portfolio Contact <onboarding@resend.dev>";
-    
+
     const { data, error } = await resend.emails.send({
       from: fromEmail,
       to: "eduardoemanuelcf@gmail.com",
-      subject: `New Portfolio Message from ${name}`,
+      replyTo: email,
+      subject: `New portfolio message from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+      html: `<div style="font-family:ui-sans-serif,system-ui,sans-serif;color:#1F2520;line-height:1.6;max-width:560px">
+        <h2 style="margin:0 0 4px;font-size:18px;font-weight:700">New portfolio message</h2>
+        <p style="margin:0 0 16px;color:#707671;font-size:13px">Sent from your portfolio contact form</p>
+        <p style="margin:0 0 4px"><strong>Name:</strong> ${escapeHtml(name)}</p>
+        <p style="margin:0"><strong>Email:</strong> <a href="mailto:${escapeHtml(email)}" style="color:#01603A">${escapeHtml(email)}</a></p>
+        <hr style="border:none;border-top:1px solid #CDD2CE;margin:16px 0" />
+        <p style="margin:0;white-space:pre-wrap">${escapeHtml(message)}</p>
+      </div>`,
     });
 
     if (error) {

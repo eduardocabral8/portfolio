@@ -154,7 +154,7 @@
     "form_message": "Message",
     "form_submit": "Send message",
     "form_sending": "Sending…",
-    "form_success": "Message sent! I'll be in touch shortly.",
+    "form_success": "Message sent!\nI'll be in touch shortly.",
     "form_error": "Couldn't send your message. Please try again.",
     "form_headline": "Send a message",
     "open": "Open"

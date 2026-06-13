@@ -81,7 +81,7 @@ export function Contact() {
           </div>
 
           <div className="flex items-center justify-between gap-4 mt-6">
-            <span className="font-mono text-[0.75rem]" aria-live="polite" style={{ color: status === "error" ? "var(--correction)" : "var(--stamp-ink)" }}>
+            <span className="font-mono text-[0.75rem] whitespace-pre-line" aria-live="polite" style={{ color: status === "error" ? "var(--correction)" : "var(--stamp-ink)" }}>
               {status === "success" ? t("contact.form_success") : status === "error" ? t("contact.form_error") : ""}
             </span>
             <Button type="submit" variant="solid" disabled={status === "loading"}>
